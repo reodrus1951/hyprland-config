@@ -46,6 +46,8 @@ return {
     windowBorderSize           = 3,
     activeWindowBorderColour   = { colors = { "rgba(00aa00e6)", "rgba(000000e6)", "rgba(00aa00e6)" }, angle = 45 },
     inactiveWindowBorderColour = "rgba(" .. scheme.onSurfaceVariant .. "11)",
+    dimInactive                = false,
+    dimStrength                = 0.5,
 
     -- Misc
     volumeStep                 = 10,

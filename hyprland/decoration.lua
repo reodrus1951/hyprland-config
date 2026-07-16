@@ -3,6 +3,8 @@ local vars = require("variables")
 hl.config({
     decoration = {
         rounding = vars.windowRounding,
+        dim_inactive = vars.dimInactive,
+        dim_strength = vars.dimStrength,
 
         blur = {
             enabled           = vars.blurEnabled,
